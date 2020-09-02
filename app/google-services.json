@@ -1,0 +1,44 @@
+{
+  "project_info": {
+    "project_number": "796104138109",
+    "firebase_url": "https://wcapp-fbed2.firebaseio.com",
+    "project_id": "wcapp-fbed2",
+    "storage_bucket": "wcapp-fbed2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:796104138109:android:ec82ab89c7ed13d5",
+        "android_client_info": {
+          "package_name": "com.abc.wcapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "796104138109-ml9685c7nibihn8fledfqksrv6k8i7gu.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.abc.wcapp",
+            "certificate_hash": "95039b44fc189f8ea2796f4ae6514087f216d800"
+          }
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCsa8fI1yXlkyU-CBaDhgAN2mRuIGRgMZg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "796104138109-nssq2o4l8l7eu9iem0heebv0nl4du8q5.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

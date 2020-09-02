@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".ParentPayment" android:gravity="center" android:orientation="vertical">
+
+    <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="wrap_content"
+            android:elevation="12dp"
+            android:layout_height="wrap_content">
+        <EditText
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:hint="Amount"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="15dp"
+                android:id="@+id/amount_et"
+                android:inputType="number" android:textColor="@color/common_google_signin_btn_text_dark_focused"
+                android:textSize="16sp" android:textStyle="bold"/>
+        <EditText
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="15dp"
+                android:id="@+id/upi_id"
+                android:text="rushigat@oksbi" android:textSize="15sp" android:textStyle="bold"/>
+        <EditText
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:text="RUSHIKESH SHANKAR GAT"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="15dp"
+                android:id="@+id/name"
+                android:textSize="15sp" android:textStyle="bold"/>
+        <EditText
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName"
+                android:ems="10"
+                android:id="@+id/sender_name" android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp" android:layout_marginTop="15dp"
+                android:hint="Enter students PRN here..." android:textSize="15sp"/>
+        <EditText
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:inputType="textPersonName"
+                android:ems="10"
+                android:id="@+id/sender_batch" android:layout_marginLeft="20dp" android:layout_marginRight="20dp"
+                android:layout_marginTop="15dp" android:hint="Department" android:textSize="15sp"/>
+        <!--<RadioGroup-->
+                <!--android:layout_width="match_parent"-->
+                <!--android:layout_height="match_parent"-->
+                <!--android:orientation="horizontal" android:layout_marginTop="15dp" android:id="@+id/radio_grp">-->
+            <!--<RadioButton-->
+                    <!--android:text="PCM"-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content" android:id="@+id/pcm_btn"-->
+                    <!--android:layout_marginLeft="20dp"/>-->
+            <!--<RadioButton-->
+                    <!--android:text="PCB"-->
+                    <!--android:layout_width="wrap_content"-->
+                    <!--android:layout_height="wrap_content" android:id="@+id/pcb_btn"-->
+                    <!--android:layout_marginLeft="30dp"/>-->
+        <!--</RadioGroup>-->
+        <EditText
+                android:layout_width="250dp"
+                android:layout_height="60dp"
+                android:hint="Note"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="15dp"
+                android:id="@+id/note"
+                android:textColor="@color/common_google_signin_btn_text_dark_focused" android:textSize="15sp"
+                android:gravity="top"/>
+        <Button
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:textColor="#fff"
+                android:id="@+id/send"
+                android:layout_marginTop="30dp"
+                android:text="pay" android:textStyle="bold" android:textSize="16sp" android:layout_gravity="center"
+                android:layout_marginBottom="15dp"/>
+    </LinearLayout>
+
+
+</LinearLayout>
